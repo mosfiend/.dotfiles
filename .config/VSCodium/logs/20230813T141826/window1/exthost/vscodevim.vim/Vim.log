@@ -1,0 +1,95 @@
+2023-08-13 14:19:03.786 [info] Configuration changed
+2023-08-13 14:36:41.132 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/1password/README.md
+2023-08-13 14:53:21.486 [info] /home/mosfiend/.oh-my-zsh/plugins/1password/README.md closed
+2023-08-13 14:53:21.502 [info] /home/mosfiend/.oh-my-zsh/plugins/1password/README.md.git closed
+2023-08-13 14:53:21.600 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/adb/README.md
+2023-08-13 14:53:30.089 [info] /home/mosfiend/.oh-my-zsh/plugins/adb/README.md closed
+2023-08-13 14:53:30.222 [info] /home/mosfiend/.oh-my-zsh/plugins/adb/README.md.git closed
+2023-08-13 14:53:30.303 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/ansible/README.md
+2023-08-13 14:53:52.814 [info] /home/mosfiend/.oh-my-zsh/plugins/ansible/README.md closed
+2023-08-13 14:53:52.816 [info] /home/mosfiend/.oh-my-zsh/plugins/ansible/README.md.git closed
+2023-08-13 14:53:52.893 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/aliases/README.md
+2023-08-13 14:54:08.963 [info] /home/mosfiend/.oh-my-zsh/plugins/aliases/README.md closed
+2023-08-13 14:54:08.965 [info] /home/mosfiend/.oh-my-zsh/plugins/aliases/README.md.git closed
+2023-08-13 14:54:09.046 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/chucknorris/README.md
+2023-08-13 14:54:16.825 [info] /home/mosfiend/.oh-my-zsh/plugins/chucknorris/README.md closed
+2023-08-13 14:54:16.827 [info] /home/mosfiend/.oh-my-zsh/plugins/chucknorris/README.md.git closed
+2023-08-13 14:54:17.031 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/catimg/README.md
+2023-08-13 14:54:27.302 [info] /home/mosfiend/.oh-my-zsh/plugins/catimg/README.md closed
+2023-08-13 14:54:27.304 [info] /home/mosfiend/.oh-my-zsh/plugins/catimg/README.md.git closed
+2023-08-13 14:54:27.510 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/cask/README.md
+2023-08-13 14:54:29.789 [info] /home/mosfiend/.oh-my-zsh/plugins/cask/README.md closed
+2023-08-13 14:54:29.791 [info] /home/mosfiend/.oh-my-zsh/plugins/cask/README.md.git closed
+2023-08-13 14:54:29.856 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/capistrano/README.md
+2023-08-13 14:54:36.435 [info] /home/mosfiend/.oh-my-zsh/plugins/capistrano/README.md closed
+2023-08-13 14:54:36.437 [info] /home/mosfiend/.oh-my-zsh/plugins/capistrano/README.md.git closed
+2023-08-13 14:54:36.649 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/macos/README.md
+2023-08-13 14:54:46.998 [info] /home/mosfiend/.oh-my-zsh/plugins/macos/README.md closed
+2023-08-13 14:54:47.000 [info] /home/mosfiend/.oh-my-zsh/plugins/macos/README.md.git closed
+2023-08-13 14:54:47.206 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/node/README.md
+2023-08-13 14:54:59.758 [info] /home/mosfiend/.oh-my-zsh/plugins/node/README.md closed
+2023-08-13 14:54:59.760 [info] /home/mosfiend/.oh-my-zsh/plugins/node/README.md.git closed
+2023-08-13 14:54:59.971 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/rust/README.md
+2023-08-13 14:55:20.187 [info] /home/mosfiend/.oh-my-zsh/plugins/rust/README.md closed
+2023-08-13 14:55:20.189 [info] /home/mosfiend/.oh-my-zsh/plugins/rust/README.md.git closed
+2023-08-13 14:55:20.404 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/jsontools/README.md
+2023-08-13 14:55:47.652 [info] /home/mosfiend/.oh-my-zsh/plugins/jsontools/README.md closed
+2023-08-13 14:55:47.654 [info] /home/mosfiend/.oh-my-zsh/plugins/jsontools/README.md.git closed
+2023-08-13 14:55:47.721 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/vim-interaction/README.md
+2023-08-13 14:55:59.112 [info] /home/mosfiend/.oh-my-zsh/plugins/vim-interaction/README.md closed
+2023-08-13 14:55:59.115 [info] /home/mosfiend/.oh-my-zsh/plugins/vim-interaction/README.md.git closed
+2023-08-13 14:55:59.318 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/vscode/README.md
+2023-08-13 14:57:05.942 [info] /home/mosfiend/.oh-my-zsh/plugins/vscode/README.md closed
+2023-08-13 14:57:05.944 [info] /home/mosfiend/.oh-my-zsh/plugins/vscode/README.md.git closed
+2023-08-13 14:57:06.017 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/thefuck/README.md
+2023-08-13 14:57:24.222 [info] /home/mosfiend/.oh-my-zsh/plugins/thefuck/README.md closed
+2023-08-13 14:57:24.224 [info] /home/mosfiend/.oh-my-zsh/plugins/thefuck/README.md.git closed
+2023-08-13 14:57:24.412 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/safe-paste/README.md
+2023-08-13 14:57:42.057 [info] /home/mosfiend/.oh-my-zsh/plugins/safe-paste/README.md closed
+2023-08-13 14:57:42.059 [info] /home/mosfiend/.oh-my-zsh/plugins/safe-paste/README.md.git closed
+2023-08-13 14:57:42.141 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/kitchen/_kitchen
+2023-08-13 14:57:43.182 [info] /home/mosfiend/.oh-my-zsh/plugins/kitchen/_kitchen closed
+2023-08-13 14:57:43.186 [info] /home/mosfiend/.oh-my-zsh/plugins/kitchen/_kitchen.git closed
+2023-08-13 14:57:43.251 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/kitchen/README.md
+2023-08-13 14:57:55.379 [info] /home/mosfiend/.oh-my-zsh/plugins/kitchen/README.md closed
+2023-08-13 14:57:55.381 [info] /home/mosfiend/.oh-my-zsh/plugins/kitchen/README.md.git closed
+2023-08-13 14:57:55.580 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/fzf/README.md
+2023-08-13 14:58:19.072 [info] /home/mosfiend/.oh-my-zsh/plugins/fzf/README.md closed
+2023-08-13 14:58:19.075 [info] /home/mosfiend/.oh-my-zsh/plugins/fzf/README.md.git closed
+2023-08-13 14:58:19.268 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/frontend-search/README.md
+2023-08-13 14:59:13.760 [info] /home/mosfiend/.oh-my-zsh/plugins/frontend-search/README.md closed
+2023-08-13 14:59:13.762 [info] /home/mosfiend/.oh-my-zsh/plugins/frontend-search/README.md.git closed
+2023-08-13 14:59:13.837 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/dotnet/README.md
+2023-08-13 14:59:26.202 [info] /home/mosfiend/.oh-my-zsh/plugins/dotnet/README.md closed
+2023-08-13 14:59:26.204 [info] /home/mosfiend/.oh-my-zsh/plugins/dotnet/README.md.git closed
+2023-08-13 14:59:26.405 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/coffee/README.md
+2023-08-13 14:59:38.553 [info] /home/mosfiend/.oh-my-zsh/plugins/coffee/README.md closed
+2023-08-13 14:59:38.555 [info] /home/mosfiend/.oh-my-zsh/plugins/coffee/README.md.git closed
+2023-08-13 14:59:38.762 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/archlinux/README.md
+2023-08-13 14:59:53.975 [info] /home/mosfiend/.oh-my-zsh/plugins/archlinux/README.md closed
+2023-08-13 14:59:53.977 [info] /home/mosfiend/.oh-my-zsh/plugins/archlinux/README.md.git closed
+2023-08-13 14:59:54.174 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/autojump/README.md
+2023-08-13 15:02:27.385 [info] /home/mosfiend/.oh-my-zsh/plugins/autojump/README.md closed
+2023-08-13 15:02:27.387 [info] /home/mosfiend/.oh-my-zsh/plugins/autojump/README.md.git closed
+2023-08-13 15:02:27.576 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/zsh-interactive-cd/README.md
+2023-08-13 15:03:45.703 [info] /home/mosfiend/.oh-my-zsh/plugins/zsh-interactive-cd/README.md closed
+2023-08-13 15:03:45.705 [info] /home/mosfiend/.oh-my-zsh/plugins/zsh-interactive-cd/README.md.git closed
+2023-08-13 15:03:45.903 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/git-auto-fetch/README.md
+2023-08-13 15:04:19.215 [info] /home/mosfiend/.oh-my-zsh/plugins/git-auto-fetch/README.md closed
+2023-08-13 15:04:19.217 [info] /home/mosfiend/.oh-my-zsh/plugins/git-auto-fetch/README.md.git closed
+2023-08-13 15:04:19.297 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/custom/plugins/example/example.plugin.zsh
+2023-08-13 15:14:06.281 [info] /home/mosfiend/.oh-my-zsh/custom/plugins/example/example.plugin.zsh closed
+2023-08-13 15:14:06.282 [info] /home/mosfiend/.oh-my-zsh/custom/plugins/example/example.plugin.zsh.git closed
+2023-08-13 15:14:06.345 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/fig/README.md
+2023-08-13 15:18:15.515 [info] Executing :q
+2023-08-13 15:18:15.576 [info] /home/mosfiend/.oh-my-zsh/plugins/fig/README.md closed
+2023-08-13 15:18:15.580 [info] /home/mosfiend/.oh-my-zsh/plugins/fig/README.md.git closed
+2023-08-13 15:18:15.586 [warning] getLineLength() called with out-of-bounds line 9
+2023-08-13 15:18:15.587 [warning] getLineLength() called with out-of-bounds line 9
+2023-08-13 15:18:50.948 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/fig/README.md
+2023-08-13 15:19:28.823 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/fasd/README.md
+2023-08-13 15:19:52.838 [info] /home/mosfiend/.oh-my-zsh/plugins/fasd/README.md closed
+2023-08-13 15:19:52.973 [info] /home/mosfiend/.oh-my-zsh/plugins/fasd/README.md.git closed
+2023-08-13 15:19:53.051 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/fig/fig.plugin.zsh
+2023-08-13 15:19:58.149 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/fig/README.md
+2023-08-13 15:20:03.425 [info] Active editor: file:///home/mosfiend/.oh-my-zsh/plugins/fig/fig.plugin.zsh

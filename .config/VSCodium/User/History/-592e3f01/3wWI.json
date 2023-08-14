@@ -1,0 +1,121 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "alt+k",
+        "command": "-keybindings.editor.recordSearchKeys",
+        "when": "inKeybindings && inKeybindingsSearch"
+    },
+    {
+        "key": "alt+f3",
+        "command": "-notebook.diff.action.next",
+        "when": "activeEditor == 'workbench.editor.notebookTextDiffEditor'"
+    },
+    {
+        "key": "alt+p",
+        "command": "-keybindings.editor.toggleSortByPrecedence",
+        "when": "inKeybindings"
+    },
+    {
+        "key": "alt+c",
+        "command": "-toggleFindCaseSensitive",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+r",
+        "command": "-toggleFindRegex",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+l",
+        "command": "-toggleFindInSelection",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+w",
+        "command": "-toggleFindWholeWord",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+c",
+        "command": "-toggleSearchCaseSensitive",
+        "when": "searchViewletFocus"
+    },
+    {
+        "key": "alt+p",
+        "command": "-togglePreserveCase",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+p",
+        "command": "-toggleSearchPreserveCase",
+        "when": "searchViewletFocus"
+    },
+    {
+        "key": "alt+r",
+        "command": "-toggleSearchRegex",
+        "when": "searchViewletFocus"
+    },
+    {
+        "key": "alt+w",
+        "command": "-toggleSearchWholeWord",
+        "when": "searchViewletFocus"
+    },
+    {
+        "key": "alt+z",
+        "command": "-editor.action.toggleWordWrap"
+    },
+    {
+        "key": "alt+h",
+        "command": "-testing.toggleTestingPeekHistory",
+        "when": "testing.isPeekVisible"
+    },
+    {
+        "key": "alt+z",
+        "command": "-workbench.action.terminal.sizeToContentWidth",
+        "when": "terminalFocus && terminalHasBeenCreated && terminalIsOpen || terminalFocus && terminalIsOpen && terminalProcessSupported"
+    },
+    {
+        "key": "alt+w",
+        "command": "-workbench.action.terminal.toggleFindWholeWord",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "alt+r",
+        "command": "-workbench.action.terminal.toggleFindRegex",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "alt+c",
+        "command": "-workbench.action.terminal.toggleFindCaseSensitive",
+        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "alt+r",
+        "command": "-toggleSearchEditorRegex",
+        "when": "inSearchEditor && searchInputBoxFocus"
+    },
+    {
+        "key": "alt+w",
+        "command": "-toggleSearchEditorWholeWord",
+        "when": "inSearchEditor && searchInputBoxFocus"
+    },
+    {
+        "key": "alt+c",
+        "command": "-toggleSearchEditorCaseSensitive",
+        "when": "inSearchEditor && searchInputBoxFocus"
+    },
+    {
+        "key": "alt+f3",
+        "command": "-editor.action.dirtydiff.next",
+        "when": "editorTextFocus && !textCompareEditorActive"
+    },
+    {
+        "key": "alt+l",
+        "command": "-toggleSearchEditorContextLines",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "alt+f10",
+        "command": "vim.showQuickpickCmdLine"
+    }
+]

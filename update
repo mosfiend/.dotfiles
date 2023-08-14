@@ -1,0 +1,3 @@
+read -p "what ls would you like to file " FILER
+ls /home/mosfiend/"$FILER"
+echo "done!"

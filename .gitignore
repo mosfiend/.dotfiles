@@ -1,0 +1,9 @@
+.thunderbird
+.oh-my-zsh
+.config/*
+!i3
+!keyboard
+!picom
+!polybar
+!pulse
+!VSCodium

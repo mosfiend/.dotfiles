@@ -1,0 +1,12 @@
+2023-08-12 16:26:29.748 [info] Extension host with pid 9933 started
+2023-08-12 16:26:30.590 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-12 16:26:30.736 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-08-12 16:26:30.786 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-08-12 16:26:31.027 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2023-08-12 16:26:31.538 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-08-12 16:26:31.555 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+2023-08-12 16:26:32.665 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-12 16:26:33.788 [info] Eager extensions activated
+2023-08-12 16:26:34.165 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-12 16:26:34.181 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-12 16:26:34.235 [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: false, activationEvent: 'onStartupFinished'

@@ -1,0 +1,23 @@
+keycode  10 = braceleft 1 braceleft 1
+keycode  11 = bracketleft 2 bracketleft 2 asciitilde NoSymbol asciitilde
+keycode  12 = parenleft 3 parenleft 3 bracketleft NoSymbol bracketleft
+keycode  13 = quotedbl 4 quotedbl 4 numbersign NoSymbol numbersign
+keycode  14 = apostrophe 5 apostrophe 5 braceleft NoSymbol braceleft
+keycode  15 = bar 6 bar 6 
+keycode  16 = grave 7 grave 7 
+
+keycode  18 = parenright 9 parenright 9 
+
+keycode  19 = bracketright 0 bracketright 0 at NoSymbol at
+keycode  20 = braceright degree braceleft degree bracketright NoSymbol bracketright
+
+
+keycode  34 = less greater less greater  
+keycode  35 = dollar numbersign dollar numbersign currency NoSymbol currency
+
+
+keycode  48 = ampersand percent ampersand percent
+keycode  51 = asterisk minus asterisk minus
+
+
+keycode  61 = exclam backslash exclam backslash

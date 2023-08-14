@@ -1,0 +1,10 @@
+2023-08-12 16:11:34.806 [info] Configuration changed
+2023-08-12 16:11:34.983 [info] Configuration changed
+2023-08-12 16:11:45.176 [info] Configuration changed
+2023-08-12 16:11:47.519 [info] Active editor: file:///home/mosfiend/Downloads/crimson/manifest.json
+2023-08-12 16:11:49.909 [info] Executing :w
+2023-08-12 16:13:21.699 [info] Executing :w
+2023-08-12 16:14:39.233 [info] Executing :wq
+2023-08-12 16:14:39.368 [info] /home/mosfiend/Downloads/crimson/manifest.json closed
+2023-08-12 16:14:39.375 [warning] getLineLength() called with out-of-bounds line 70
+2023-08-12 16:14:39.376 [warning] invalid cursor position. [[70, 43] | [70, 43]].

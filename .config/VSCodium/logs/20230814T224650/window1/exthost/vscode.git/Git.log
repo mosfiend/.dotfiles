@@ -1,0 +1,27 @@
+2023-08-14 22:47:29.973 [info] Log level: Info
+2023-08-14 22:47:29.973 [info] Validating found git in: "git"
+2023-08-14 22:47:29.973 [info] Using git "2.34.1" from "git"
+2023-08-14 22:47:29.973 [info] > git rev-parse --show-toplevel [1632ms]
+2023-08-14 22:47:30.057 [info] > git rev-parse --git-dir --git-common-dir [50ms]
+2023-08-14 22:47:30.187 [info] Open repository: /home/mosfiend/.dotfiles/.oh-my-zsh
+2023-08-14 22:47:30.369 [info] > git config --get commit.template [50ms]
+2023-08-14 22:47:30.371 [info] > git rev-parse --show-toplevel [100ms]
+2023-08-14 22:47:30.469 [info] > git rev-parse --show-toplevel [57ms]
+2023-08-14 22:47:30.533 [info] > git rev-parse --show-toplevel [21ms]
+2023-08-14 22:47:30.591 [info] > git rev-parse --show-toplevel [16ms]
+2023-08-14 22:47:30.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [173ms]
+2023-08-14 22:47:30.681 [info] > git rev-parse --show-toplevel [62ms]
+2023-08-14 22:47:30.722 [info] > git rev-parse --show-toplevel [15ms]
+2023-08-14 22:47:30.771 [info] > git rev-parse --show-toplevel [16ms]
+2023-08-14 22:47:30.812 [info] > git rev-parse --show-toplevel [13ms]
+2023-08-14 22:47:30.844 [info] > git status -z -uall [177ms]
+2023-08-14 22:47:30.845 [info] > git rev-parse --show-toplevel [9ms]
+2023-08-14 22:47:30.953 [info] > git rev-parse --show-toplevel [68ms]
+2023-08-14 22:47:30.977 [info] > git config --get commit.template [24ms]
+2023-08-14 22:47:31.017 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2023-08-14 22:47:31.078 [info] > git status -z -uall [36ms]
+2023-08-14 22:47:31.584 [info] > git check-ignore -v -z --stdin [86ms]
+2023-08-14 22:47:31.591 [info] > git show --textconv :plugins/autojump/README.md [51ms]
+2023-08-14 22:47:31.597 [info] > git ls-files --stage -- /home/mosfiend/.dotfiles/.oh-my-zsh/plugins/autojump/README.md [20ms]
+2023-08-14 22:47:31.626 [info] > git cat-file -s 750ff56d12ef9ef68d3390d0d9d985640bda3c06 [3ms]
+2023-08-14 22:47:38.364 [info] > git check-ignore -v -z --stdin [8ms]

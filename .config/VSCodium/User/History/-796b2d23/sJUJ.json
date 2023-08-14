@@ -1,0 +1,16 @@
+{
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    
+    "terminal.external.linuxExec": "xfce4-terminal",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "workbench.editor.showTabs": false,
+    "editor.lineNumbers": "relative",
+    "editor.renderWhitespace": "all",
+    "workbench.sideBar.location": "right",
+    "window.menuBarVisibility": "hidden",
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Miezhiko Theme",
+	"vim.vimrc.enable": false,
+	"vim.vimrc.path": "$HOME/.config/vscodevimrc",
+}
