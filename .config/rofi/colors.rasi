@@ -1,0 +1,16 @@
+* {
+    foreground:           rgb(196, 203, 212);
+    selected-foreground:  rgb(255, 255, 255);
+    
+    background:           #1f243aa0; 
+    background-solid:     #1f243aff; 
+    selected-background:  rgb(0, 0, 0);
+
+    /*#87b5d7;*/  
+    /*#6eacda;*/
+    /*#deca72;*/
+    /*#39c9fe;*/
+
+    red:                  rgba ( 220, 50, 47, 100 % );
+    blue:                 rgba ( 38, 139, 210, 100 % );
+}

@@ -1,0 +1,69 @@
+* {
+  /* Default background color */
+  text-color:       #555555;
+}
+
+window {
+  padding: 1em;
+
+  width:  1024px; 
+
+
+}
+
+mainbox {
+  spacing: 0px;
+  children: [listview];
+}
+
+element {
+  background: transparent;
+  children: [ element-text ];
+}
+element,element-text, button {
+    cursor: pointer;
+}
+
+
+
+listview  {
+  padding: 0.5em;  
+  border-radius: 10px;
+  columns: 4;
+  lines:   1;
+}
+
+listview {
+  border:       0px 5px 5px 5px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+
+element {
+    border:  0;
+    padding:      10px;
+    font:         "AgaveNerd 14";
+    orientation: vertical;
+}
+
+
+element-text, element-icon {
+  font:             inherit; 
+  horizontal-align: 0.5;
+}
+
+wrapper-mode-switcher {
+    orientation: horizontal;
+
+    expand:     false;
+    spacing:    0;
+    children: [ icon-ms-ic1, mode-switcher, icon-ms-ic2 ];
+}
+
+mode-switcher {
+    border:  0px;
+    spacing: 0px;
+    expand: true;
+}
+
+@import "~/.cache/wal/colors-rofi-light"

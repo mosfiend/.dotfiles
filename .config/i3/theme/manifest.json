@@ -1,0 +1,26 @@
+    {
+      "manifest_version": 3,
+      "version": "1.0",
+      "name": " Theme",
+      "theme": {
+        "images": {
+          "theme_ntp_background" : "images/theme_ntp_background_norepeat.png"
+        },
+        "colors": {
+          "frame": [],
+          "frame_inactive": [],
+          "toolbar": [],
+          "ntp_text": [],
+          "ntp_link": [],
+          "ntp_section": [],
+          "button_background": [],
+          "toolbar_button_icon": [],
+          "toolbar_text": [],
+          "omnibox_background": [],
+          "omnibox_text": []
+        },
+        "properties": {
+          "ntp_background_alignment": "bottom"
+        }
+      }
+    }

@@ -29,7 +29,6 @@ override-redirect = false
 ; Fonts.
 font-0 = AgaveNerd Font:pixelsize=11;2
 font-1 = AgaveNerd Font:pixelsize=12;3
-
 font-2 = AgaveNerd Font:pixelsize=10:antialias=false;3
 font-3 = AgaveNerd Font:pixelsize=14;3s
 
@@ -62,7 +61,7 @@ label-focused-padding = 1
 ; Urgent.
 label-urgent = 
 label-urgent-padding = 1
-label-urgent-foreground = ${colors.red}
+label-urgent-foreground = ${colors.alert}
 ; Empty 
 label-unfocused= 
 label-unfocused-padding = 1

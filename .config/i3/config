@@ -1,41 +1,37 @@
 # Settings.
-font pango: JetBrainsMono Nerd Font 10
+font pango: AgaveNerd Font 12
 mouse_warping none 
 set $mod Mod4
 workspace_layout default
+focus_follows_mouse no
 
-
-
-# Nordic colors.
-set $black      #191C24
-set $gray0      #242933
-set $gray1      #2E3440
-set $gray2      #3B4252
-set $gray3      #434C5E
-set $gray4      #4C566A
-set $gray5      #60728A
-set $white0     #D8DEE9
-set $white1     #E5E9F0
-set $white2     #ECEFF4
-set $blue0      #5E81AC
-set $blue1      #81A1C1
-set $blue2      #88C0D0
-set $cyan       #8FBCBB
-set $red        #BF616A
-set $orange     #D08770
-set $yellow     #EBCB8B
-set $green      #A3BE8C
-set $magenta    #B48EAD
-
+set_from_resource $fg i3wm.color7 #f0f0f0
+set_from_resource $bg i3wm.color2 #f0f0f0
+set_from_resource $bg2 i3wm.color1 #f0f0f0
+# class                 border  backgr. text indicator child_border
+client.focused          $bg     $bg     $fg  $bg       $bg
+client.focused_inactive $bg     $bg     $fg  $bg       $bg
+client.unfocused        $bg2     $bg2     $fg  $bg2       $bg2
+client.urgent           $bg     $bg     $fg  $bg       $bg
+client.placeholder      $bg     $bg     $fg  $bg       $bg
+client.background       $bg
 # mod
 
 # borders
 default_border none
 title_align center
-# drag windows
-# drag windowsfloating_modifier $mod
+
+# on start up 
+exec xinput float 16
+exec xfce4-terminal -e tmux
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+# Keyboard rebinding
+exec_always setxkbmap -option ctrl:nocaps
+exec_always xcape -e 'Control_L=Escape'
+exec_always xmodmap $HOME/.config/keyboard/keyboard.txt
 
 # change focus
+
 bindsym $mod+h focus left
 bindsym $mod+j focus down
 bindsym $mod+k focus up
@@ -83,7 +79,7 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 # resize window (you can also use the mouse for that)
 mode "resize" {
-    bindsym h resize shrink width 10 px or 10 ppt
+  bindsym h resize shrink width 10 px or 10 ppt
     bindsym j r"i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'""i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"esize grow height 10 px or 10 ppt
     bindsym k resize shrink height 10 px or 10 ppt
     bindsym l resize grow width 10 px or 10 ppt
@@ -93,13 +89,6 @@ mode "resize" {
 
 # sticky window
 bindsym $mod+Shift+s sticky toggle
-
-# floating
-
-# default workspaces
-
-# workspace defaultmonitors
-
 
 # key-bindings
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
@@ -114,8 +103,10 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+q kill
 bindsym Print exec screenshot
 # Open most used things
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-bindsym $mod+u exec brave-browser
+bindsym $mod+d exec rofi -show drun
+bindsym $mod+End exec rofi -modi 'Powermenu:~/.config/rofi/scripts/powermenu.sh' -show Powermenu -theme '~/.config/rofi/powermenu.rasi' -icon-theme "Reversal-dark"
+
+bindsym $mod+u exec brave-browser & brave-browser --incognito
 bindsym $mod+i exec codium
 bindsym $mod+p exec xfce4-screenshooter
 bindsym $mod+Return exec xfce4-terminal
@@ -154,19 +145,14 @@ bindsym $mod+Shift+egrave move container to workspace number $ws7
 bindsym $mod+Shift+underscore move container to workspace number $ws8
 bindsym $mod+Shift+parenright move container to workspace number $ws9
 bindsym $mod+Shift+bracketright move container to workspace number $ws10
-
 # Assertions 
+assign [title="New Private Tab - Brave"] $ws9
 assign [class="Brave-browser"] $ws1
 assign [class="VSCodium"] $ws2
-assign [class="Xfce4-terminal"] $ws3
-assign [class="Anki"] $ws4
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always  feh --randomize --bg-fill  ~/Pictures/Wallpapers/crimson/*
-exec_always picom -b
-# Keyboard rebinding
-execsetxkbmap -option ctrl:nocaps
-execxcape -e 'Control_L=Escape'
-exec xmodmap $HOME/.config/keyboard/keyboard.txt
+assign [class="Xfce4-terminal"] $ws3 
+assign [class="mpv"] $ws4
+assign [class="Anki"] $ws5
 
-bindsym $mod+g exec echo b
-
+for_window [class="XTerm"] floating enable
+#bindsym $mod+exclam exec xterm -e nvim ~/journal/refile.org
+bindsym $mod+exclam exec xfce4-terminal -e "nvim ."
