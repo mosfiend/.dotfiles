@@ -26,6 +26,5 @@ vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
 vim.opt.isfname:append("@-@")
 
-
-
-
+vim.opt.conceallevel = 2
+vim.opt.concealcursor = "nc"
