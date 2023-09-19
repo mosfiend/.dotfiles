@@ -1,8 +1,7 @@
 #usr/bin/env bash
 ssh=$(find ~/ssh -maxdepth 2 -mindepth 1 | fzf)
-ssh_name=$(basename "$session" | tr . _)
-ansible-vault view $ssh
-
+ansible-vault view $ssh | cat | xclip -sel clip
+echo "successfully copied into clipboard"
 #read -p "Enter Query: " query
 #
 #query=$(echo $query | tr ' ' '+')
