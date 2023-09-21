@@ -1,3 +1,4 @@
+@theme "~/.config/rofi/tokyonight.rasi"
 * {
   /* Default background color */
   text-color:       #555555;
@@ -66,4 +67,3 @@ mode-switcher {
     expand: true;
 }
 
-@import "~/.cache/wal/colors-rofi-light"

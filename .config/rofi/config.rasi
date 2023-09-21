@@ -1,15 +1,28 @@
-configuration {
-	width: 1000;
-	show-icons: true;
-	lines: 15;
-	columns: 1;
-	bw: 0;
-	padding: 100;
-	eh: 1;
-	auto-select: false;
-	line-margin: 18;
-	separator-style: "solid";
-	hide-scrollbar: true;
-}
+configuration{
+    modi: ["drun", "window", "run"];
+    icon-theme: "Papirus-Dark";
+    show-icons: true;
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    sidebar-mode: false;
+    display-drun: " ";
+    display-run: " ";
+    display-window: " ";
+    
+    //adding vim keybindings
+    kb-row-up: "Up,Control+k";
+    kb-row-left: "Left,Control+h";
+    kb-row-right: "Right,Control+l";
+    kb-row-down: "Down,Control+j";
 
-@import "~/.cache/wal/colors-rofi-dark"
+    kb-accept-entry: "Control+z,Control+y,Return,KP_Enter";
+
+    //fixing up
+    kb-remove-to-eol: "";
+    kb-move-char-back: "Control+b";
+    kb-remove-char-back: "BackSpace";
+    kb-move-char-forward: "Control+f";
+    kb-mode-complete: "Control+o";
+}
+@theme "~/.config/rofi/tokyonight_big.rasi"

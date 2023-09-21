@@ -75,6 +75,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace
 bindsym $mod+Shift+r restart
 
+
 # exit i3
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 # resize window (you can also use the mouse for that)
@@ -155,4 +156,4 @@ assign [class="Anki"] $ws5
 
 for_window [class="XTerm"] floating enable
 #bindsym $mod+exclam exec xterm -e nvim ~/journal/refile.org
-bindsym $mod+exclam exec xfce4-terminal -e "nvim ."
+bindsym $mod+exclam exec setxkbmap -option ctrl:nocaps && xcape -e 'Control_L=Escape' && xmodmap $HOME/.config/keyboard/keyboard.txt
