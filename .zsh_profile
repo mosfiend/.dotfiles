@@ -1,0 +1,2 @@
+# wal -R -q 
+#bindkey -s ^f "$HOME/tmux-run\n"

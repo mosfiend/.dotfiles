@@ -5,24 +5,24 @@ set $mod Mod4
 workspace_layout default
 focus_follows_mouse no
 
-set_from_resource $fg i3wm.color7 #f0f0f0
-set_from_resource $bg i3wm.color2 #f0f0f0
-set_from_resource $bg2 i3wm.color1 #f0f0f0
-# class                 border  backgr. text indicator child_border
-client.focused          $bg     $bg     $fg  $bg       $bg
-client.focused_inactive $bg     $bg     $fg  $bg       $bg
-client.unfocused        $bg2     $bg2     $fg  $bg2       $bg2
-client.urgent           $bg     $bg     $fg  $bg       $bg
-client.placeholder      $bg     $bg     $fg  $bg       $bg
-client.background       $bg
+# set_from_resource $fg i3wm.color7 #f0f0f0
+# set_from_resource $bg i3wm.color2 #f0f0f0
+# set_from_resource $bg2 i3wm.color1 #f0f0f0
+# # class                 border  backgr. text indicator child_border
+# client.focused          $bg     $bg     $fg  $bg       $bg
+# client.focused_inactive $bg     $bg     $fg  $bg       $bg
+# client.unfocused        $bg2     $bg2     $fg  $bg2       $bg2
+# client.urgent           $bg     $bg     $fg  $bg       $bg
+# client.placeholder      $bg     $bg     $fg  $bg       $bg
+# client.background       $bg
 # mod
-
+# exec feh --bg-scale ~/Pictures/Wallpapers/rosepine/rose_pine_maze.png
 # borders
 default_border none
 title_align center
 
 # on start up 
-exec xinput float 16
+# exec xinput float 16
 exec xfce4-terminal -e tmux
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # Keyboard rebinding
@@ -153,7 +153,8 @@ assign [class="VSCodium"] $ws2
 assign [class="Xfce4-terminal"] $ws3 
 assign [class="mpv"] $ws4
 assign [class="Anki"] $ws5
-
 for_window [class="XTerm"] floating enable
 #bindsym $mod+exclam exec xterm -e nvim ~/journal/refile.org
 bindsym $mod+exclam exec setxkbmap -option ctrl:nocaps && xcape -e 'Control_L=Escape' && xmodmap $HOME/.config/keyboard/keyboard.txt
+bindsym $mod+Shift+exclam exec setxkbmap -option ctrl:nocaps && xcape -e 'Control_L=Escape' && xmodmap $HOME/.config/keyboard/AZERTY.txt
+

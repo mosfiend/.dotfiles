@@ -11,10 +11,11 @@ require("lazy").setup({
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- import any extras modules here
+    -- { import = "lazyvim.plugins.extras.lang.docker" },
+    -- { import = "lazyvim.plugins.extras.lang.json" },
+    { import = "lazyvim.plugins.extras.formatting.prettier" },
     { import = "lazyvim.plugins.extras.lang.typescript" },
-    { import = "lazyvim.plugins.extras.lang.json" },
-    -- { import = "lazyvim.plugins.extras.linting.eslint" },
-    -- { import = "lazyvim.plugins.extras.formatting.prettier" },
+    { import = "lazyvim.plugins.extras.linting.eslint" },
     -- import/override with your plugins
     { import = "plugins" },
   },
@@ -45,3 +46,22 @@ require("lazy").setup({
     },
   },
 })
+vim.api.nvim_set_hl(0, "ErrorMsg", { fg = "#e45454" })
+vim.api.nvim_set_hl(0, "Error", { fg = "#e45454" })
+vim.api.nvim_set_hl(0, "DiagnosticError", { fg = "#e45454" })
+vim.api.nvim_set_hl(0, "DiagnosticVirtualTextError", { fg = "#e45454" })
+
+vim.api.nvim_set_hl(0, "InfoMsg", { fg = "#00b7e4" })
+vim.api.nvim_set_hl(0, "DiagnosticInfo", { fg = "#00b7e4" })
+vim.api.nvim_set_hl(0, "Info", { fg = "#00b7e4" })
+vim.api.nvim_set_hl(0, "DiagnosticVirtualTextInfo", { fg = "#00b7e4" })
+
+vim.api.nvim_set_hl(0, "WarningMsg", { fg = "#f5942f" })
+vim.api.nvim_set_hl(0, "DiagnosticWarning", { fg = "#f5942f" })
+vim.api.nvim_set_hl(0, "Warning", { fg = "#f5942f" })
+vim.api.nvim_set_hl(0, "DiagnosticVirtualTextWarn", { fg = "#f5942f" })
+
+vim.api.nvim_set_hl(0, "HintMsg", { fg = "#2faf64" })
+vim.api.nvim_set_hl(0, "DiagnosticHint", { fg = "#2faf64" })
+vim.api.nvim_set_hl(0, "Hint", { fg = "#2faf64" })
+vim.api.nvim_set_hl(0, "DiagnosticVirtualTextHint", { fg = "#2faf64" })

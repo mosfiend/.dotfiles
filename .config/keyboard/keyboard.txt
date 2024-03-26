@@ -13,9 +13,12 @@ keycode  20 = braceright dead_circumflex braceright dead_circumflex bracketright
 keycode  34 = less greater less greater  
 keycode  35 = dollar numbersign dollar numbersign currency NoSymbol currency
 
-
 keycode  48 = ampersand percent ampersand percent
 keycode  51 = asterisk minus asterisk minus
 
-
 keycode  61 = exclam backslash exclam backslash
+
+keycode 78 = XF86AudioLowerVolume NoSymbol XF86AudioLowerVolume
+keycode 127 = XF86AudioRaiseVolume NoSymbol XF86AudioRaiseVolume
+
+keycode 108 = Multi_key Alt_R Meta_R Alt_R Meta_R
